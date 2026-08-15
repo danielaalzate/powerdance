@@ -4,11 +4,3 @@
 .map-wrap{max-width:900px;margin:60px auto;position:relative;border:1px solid #3b1a1e;overflow:hidden}.map-wrap iframe{display:block;width:100%;height:320px;border:0;filter:grayscale(1) invert(.88) hue-rotate(180deg);opacity:.85}.map-link{position:absolute;bottom:14px;right:14px;padding:11px 14px;background:var(--red);color:#fff;font-size:10px;font-weight:800;letter-spacing:.1em}
 .pricing{background:#0d0e12;border-top:1px solid var(--line)}.price-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.price-grid article{min-height:280px;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.price-grid article.featured{background:linear-gradient(145deg,#461015,#181014)}.price-grid h3{margin-top:38px}.price-grid strong{display:block;color:var(--red2);font:800 18px var(--display);letter-spacing:.1em;margin:18px 0}.price-grid p{color:#aeb0b4;font-size:13px;line-height:1.5}.price-grid a{color:var(--red2);font-weight:800;font-size:11px}.whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:8;display:flex;align-items:center;gap:9px;padding:14px 17px;border-radius:999px;background:#25d366;color:#07160d;box-shadow:0 8px 25px #0008;font-size:11px;letter-spacing:.08em}.whatsapp-float span{font-size:22px;line-height:1}.whatsapp-float:hover{background:#45e27e;transform:translateY(-2px)}
 .hero-image{isolation:isolate}.hero-image::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,9,12,.72),rgba(8,9,12,.2) 60%,rgba(8,9,12,.5));z-index:1;pointer-events:none}.hero-image .hero-video{width:116%;height:116%;margin:-8% 0 0 -8%;object-fit:cover;transform:rotate(-4deg);opacity:.58;filter:saturate(1.15) contrast(1.08)}
-
-
-/* Cabecero: mantener el wordmark limpio sin icono roto */
-.site-header .brand img{display:none}
-.site-header .brand span{display:block}
-
-/* Mostrar siempre el logotipo en GitHub Pages */
-.site-header .brand img{display:block}
