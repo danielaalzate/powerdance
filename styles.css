@@ -9,3 +9,6 @@
 /* Cabecero: mantener el wordmark limpio sin icono roto */
 .site-header .brand img{display:none}
 .site-header .brand span{display:block}
+
+/* Mostrar siempre el logotipo en GitHub Pages */
+.site-header .brand img{display:block}
